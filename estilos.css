@@ -1,0 +1,38 @@
+table {
+    width: 600px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.primera {
+    background-color: silver;
+    opacity: 0.3;
+}
+
+.primera:hover {
+    background-color: rgb(255, 255, 0);
+    opacity: 1;
+}
+
+.segunda {
+    background-color: #F5F5F5;
+}
+
+.segunda:hover {
+    background-color: rgb(0, 128, 0);
+}
+
+.resto {
+    background-color: #81BEF7;
+    text-align: center;
+}
+
+.resto:hover {
+    background-color: #81BEF7;
+}
